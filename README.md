@@ -140,4 +140,4 @@ git push -u origin main
 
 ## Example Artifact (Output)
 
-![Word Cloud Example](docs/images/word_cloud_example.png)
+![Word Cloud Example](docs/images/token_counts.png)
