@@ -1,7 +1,6 @@
 # nlp-02-text-preprocessing
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
-[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project for Web Mining and Applied NLP.
 
@@ -93,8 +92,7 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-02-text-preprocessing
+git clone https://github.com/s-golla/nlp-02-text-preprocessing
 cd nlp-02-text-preprocessing
 code .
 ```
