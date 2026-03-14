@@ -138,6 +138,19 @@ git push -u origin main
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
 
+## Technical Modifications
+
+- Copied example files to use a personal suffix:
+  - `data/text_data_sgolla.txt`
+  - `src/nlp/text_preprocessing_sgolla.py`
+  - `notebooks/updated_text_preprocessing_sgolla.ipynb`
+- Technical Modifications:
+  - **Frequency Filtering**: Filtered token frequency output to include only tokens with count > 1.
+  - **Lexical Diversity**: Added calculation to measure vocabulary richness.
+  - **Visualization**: Added a pie chart to visualize the ratio of Unique vs. Repeated tokens.
+- Verified by running: `uv run python -m nlp.text_preprocessing_sgolla`.
+- Result: Script runs successfully, prints analytical metrics, and generates visualization charts.
+
 ## Example Artifact (Output)
 
 ![Word Cloud Example](docs/images/token_counts.png)
